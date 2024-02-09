@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/5e16108c-fd30-46de-9bb8-0b4e1bbbc509/29d8d7d7-83cc-4b5f-aa9b-6fd4f68bfaa6/IN-en-20240205-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 644px;
+  position: relative;
+}
+
+.main.box {
+  height: 644px;
+  width: 100%;
+  opacity: 0.69;
+  position: absolute;
+  top: 0;
+  background-color: black;
+}
+nav {
+  max-width: 60vw;
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+nav img {
+  color: red;
+  width: 130px;
+  position: relative;
+  z-index: 1;
+  right: 130px;
+  width: 160px;
+}
+
+nav button {
+  position: relative;
+  z-index: 1;
+}
+
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  height: 84%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: relative;
+  gap: 23px;
+  padding: 0 30px;
+}
+
+.hero > :nth-child(1) {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 48px;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+}
+.hero > :nth-child(3) {
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+.seperation {
+  height: 7px;
+  background-color: rgb(65, 62, 62);
+  position: relative;
+  z-index: 20;
+}
+.btn {
+  padding: 3px 8px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(69, 67, 67);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  left: 120px;
+  cursor: pointer;
+}
+
+.btn-red-sm {
+  background-color: red;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  left: 135px;
+  cursor: pointer;
+}
+
+.btn-red {
+  background-color: red;
+  color: white;
+  font-size: 23px;
+  border-radius: 5px;
+  border: none;
+  padding: 12px 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main input {
+  padding: 21px 204px 15px 21px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(45, 43, 43);
+}
+.first {
+  display: flex;
+  justify-content: center;
+  max-width: 70vw;
+  margin: auto;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 526px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  right: 75px;
+  height: 379px;
+  width: 381px;
+}
+
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+section.first > div :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+section.first > div :nth-child(3) {
+  font-size: 22px;
+  gap: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.faq {
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding: 30px;
+}
+
+.faqbox:hover {
+  background-color: rgb(45, 45, 45);
+}
+
+.faqbox {
+  transition: all;
+  display: flex;
+  background-color: rgb(65, 65, 65);
+  justify-content: space-between;
+  padding: 26px;
+  max-width: 74vw;
+  margin: 8px auto;
+  cursor: pointer;
+  font-size: 22px;
+}
+.faq h1 {
+  font-size: 48px;
+}
+.faqbox svg {
+  filter: invert(1);
+}
+
+.faq h3 {
+  text-align: "center";
+}
+
+.faq input {
+  padding: 21px 204px 15px 21px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(45, 43, 43);
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+.footer-items {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+#xyz {
+  padding: 20px;
+  margin: auto;
+  max-width: 60vw;
+  color: rgb(255 255 255 / 70%);
+}
+
+footer a {
+  text-decoration: underline;
+  color: rgb(255 255 255 / 70%);
+  font-size: 14px;
+}
+#abc {
+  padding: 20px;
+  margin: auto;
+  max-width: 60vw;
+  color: rgb(255 255 255 / 70%);
+}
+
+@media screen and (max-width: 1300px) {
+  .first {
+    flex-wrap: wrap;
+  }
+}
